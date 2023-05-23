@@ -1,0 +1,151 @@
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+body {
+	font-family: 'Hanken Grotesk', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+	padding: 1px 0;
+	background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%); 
+	border-radius: 0 0 25px 25px;
+}
+
+header h1 {
+	font-size: 1rem;
+	color: #CAC9FF;
+	margin: 25px;
+}
+
+header h2 {
+	margin: 10px 0;
+	color: white;
+}
+
+header p {
+	margin: 0 auto;
+	width: 70%;
+	color: #CAC9FF;
+}
+
+header .total-result-circle {
+	margin: 0 auto;
+	border-radius: 50%;
+	background: linear-gradient(180deg, rgb(67, 52, 179) 0%, hsla(242, 13%, 50%, 0) 100%);
+	padding: 20px;
+	height: 80px;
+	width: 100px;
+}
+
+header .total-result-circle .score {
+	padding-top: 20px;
+}
+
+header .score {
+	color: #fff;
+	font-size: 3rem;
+}
+
+header .out-of {
+	color: #CAC9FF;
+}
+
+header p {
+	color: #CAC9FF;
+	margin: 0 auto 40px;
+}
+
+main {
+	margin: 0 auto;
+	width: 85%;
+}
+
+main h1 {
+	font-size: 1.2rem;
+	color: #303B59;
+	margin: 25px 0;
+}
+
+main .result {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 20px 0;
+}
+
+main .reaction {
+	background-color: #FFF6FF;
+}
+
+main .reaction .category {
+	color: #FF5555;
+}
+
+main .memory {
+	background-color: #fffbf4
+}
+
+main .memory .category {
+	color: #FFB21E;
+}
+
+main .verbal {
+	background-color: #f2fcf9;
+}
+
+main .verbal .category {
+	color: #00BB8F;
+}
+
+main .visual {
+	background-color: #F3F4FD;
+}
+
+main .visual .category {
+	color: #1125D6;
+}
+
+main .score .out-of {
+	color: #84839d;
+}
+
+main button {
+	border: none;
+	background-color: #303B59;
+	color: white;
+	border-radius: 30px;
+	padding: 20px;
+	width: 100%;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.attribution {
+	margin: 10px 0;
+}
+
+@media (min-width: 768px) { 
+	body {
+		background-color: #ECF2FF;
+	}
+
+	.container {
+		height: 500px;
+		background-color: rgba(255, 255, 255, 0.5);		display: flex;
+		flex-direction: row;
+	}
+
+	header {
+		border-radius: 25px;
+	}
+}
